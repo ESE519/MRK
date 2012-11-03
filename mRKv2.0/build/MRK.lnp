@@ -1,0 +1,10 @@
+--cpu Cortex-M3 ".\build\nrk_cpu.o" ".\build\nrk_status.o" ".\build\nrk_timer.o" ".\build\nrk_watchdog.o" ".\build\nrk.o" ".\build\nrk_error.o" ".\build\nrk_events.o" ".\build\nrk_idle_task.o" ".\build\nrk_reserve.o" ".\build\nrk_scheduler.o" ".\build\nrk_stack_check.o" ".\build\nrk_stats.o" ".\build\nrk_task.o" ".\build\nrk_time.o" ".\build\hal_wait.o" ".\build\ulib.o" ".\build\my_asm.o" ".\build\adc_driver.o" ".\build\ff_basic_sensor.o" ".\build\nrk_driver.o" ".\build\bmac.o" ".\build\basic_rf.o" ".\build\mrf24j40.o" ".\build\main.o" --strict --scatter ".\mbed\LPC1768\LPC1768.sct" 
+.\mbed\LPC1768\startup_LPC17xx.o
+.\mbed\LPC1768\system_LPC17xx.o
+.\mbed\LPC1768\stackheap.o
+.\mbed\LPC1768\core_cm3.o
+.\mbed\LPC1768\cmsis_nvic.o
+.\mbed\LPC1768\capi.ar
+.\mbed\LPC1768\mbed.ar --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\build\MRK.map" -o .\build\MRK.axf

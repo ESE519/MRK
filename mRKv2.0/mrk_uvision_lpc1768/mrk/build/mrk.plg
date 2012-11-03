@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\dbanks\Dropbox\mRK\mrk_radio_rf_basic_sensors\mrk_cntxt_trial\Mbed\mrk_uvision_lpc1768\mrk\mrk.uvproj
+Project File Date:  10/18/2012
+
+<h2>Output:</h2>
+Rebuild target 'mbed NXP LPC1768'
+compiling ulib.c...
+ulib.c: Error:  #5: cannot open source input file "NanoRk/src/platform/mbed/source/ulib.c": No such file or directory
+Target not created
